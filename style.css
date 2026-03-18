@@ -5,7 +5,7 @@ color: white;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 
- .resultado{
+ .calculadora{
     position: absolute;
     background-color: red;
     top: 50%;
