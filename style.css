@@ -3,11 +3,12 @@ background-color: black;
 height: 100vh;
 color: white;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
  }
 
  .calculadora{
     position: absolute;
-    background-color: red;
+    background-color: rgb(0, 25, 253);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -27,4 +28,16 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
  .botao:hover{
 background-color: rgb(58, 58, 58);
+ }
+ #resultado{
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(4, 0, 255);
+    background-color: aqua;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
  }
